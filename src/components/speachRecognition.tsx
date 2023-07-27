@@ -34,9 +34,9 @@ const speachRecognition: FC = () => {
 
   return (
     <div className={style.container}>
-      <div className={style.title1}>Проект распознавания речи</div>
+      <div className={style.title1}>Проект - распознавание речи</div>
       <div className={style.TextAndNumberBox}>
-        <div className={style.title2}>Текст со случайным числом:</div>
+        <div className={style.title2}>Текст вместе со случайным числом:</div>
         {textAndNumber 
           ? <div className={style.title3}>{textAndNumber}</div>
           : <div className={style.title4}>{defaulttext}</div>
